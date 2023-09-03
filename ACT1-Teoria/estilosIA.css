@@ -1,0 +1,87 @@
+/* Resetear estilos por defecto del navegador */
+body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#categoria {
+    margin-bottom: 20px;
+}
+
+#cursos-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.curso {
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #cccccc;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Estilos específicos para categoría Inglés */
+.ingles {
+    border-color: #007bff;
+    
+}
+
+/* Estilos específicos para categoría Francés */
+.frances {
+    border-color: #ff5722;
+}
+
+/* Agrega más estilos según sea necesario */
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .curso {
+        width: 100%;
+        margin-right: 0;
+    }
+}
